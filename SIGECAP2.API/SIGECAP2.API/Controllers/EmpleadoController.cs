@@ -19,7 +19,7 @@ namespace SIGECAP2.API.Controllers
             _personaService = personaService;
         }
 
-        // ✅ POST: api/empleado/registrar?criterio=EMP001 o ?criterio=0801199912345
+        // ✅ POST: api/empleado/registrar?criterio=EMP001
         [HttpPost("registrar")]
         public async Task<IActionResult> CrearEmpleado([FromQuery] string criterio)
         {
@@ -45,7 +45,11 @@ namespace SIGECAP2.API.Controllers
 
                 await _empleadoService.CrearEmpleadoAsync(nuevoEmpleado);
 
-                return Ok(new { mensaje = "✅ Empleado registrado correctamente" });
+                return Ok(new
+                {
+                    mensaje = "✅ Empleado registrado correctamente",
+                    contrasenaGenerada = nuevoEmpleado.ContrasenaGenerada
+                });
             }
             catch (Exception ex)
             {
@@ -76,6 +80,18 @@ namespace SIGECAP2.API.Controllers
                     inner = ex.InnerException?.Message
                 });
             }
+        }
+
+        // ✅ PUT: api/empleado/cambiar-estado/3181?activo=false
+        [HttpPut("cambiar-estado/{numeroEmpleado}")]
+        public async Task<IActionResult> CambiarEstado(string numeroEmpleado, [FromQuery] bool activo)
+        {
+            bool actualizado = await _empleadoService.CambiarEstadoAsync(numeroEmpleado, activo);
+
+            if (!actualizado)
+                return NotFound(new { mensaje = "❌ Empleado no encontrado" });
+
+            return Ok(new { mensaje = "✅ Estado actualizado correctamente" });
         }
     }
 }

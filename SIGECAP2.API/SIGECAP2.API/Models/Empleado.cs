@@ -15,6 +15,8 @@ namespace SIGECAP2.API.Models
         public string Cargo { get; set; }
         public string Estado { get; set; }
         public bool Activo { get; set; }
+        public Contrasena Contrasena { get; set; }
+
     }
 }
 

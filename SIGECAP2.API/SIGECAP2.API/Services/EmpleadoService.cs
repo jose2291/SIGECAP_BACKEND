@@ -1,7 +1,10 @@
-﻿using SIGECAP2.API.DTOs;
+﻿using AutoMapper;
+using SIGECAP2.API.Data;
+using SIGECAP2.API.DTOs;
 using SIGECAP2.API.Models;
 using SIGECAP2.API.Repositories;
-using AutoMapper;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,19 +16,34 @@ namespace SIGECAP2.API.Services
         private readonly IEmpleadoRepository _repository;
         private readonly IPersonaRepository _personaRepository;
         private readonly IMapper _mapper;
+        private readonly AppDbContext _context;
 
-        public EmpleadoService(IEmpleadoRepository repository, IPersonaRepository personaRepository, IMapper mapper)
+        public EmpleadoService(
+            IEmpleadoRepository repository,
+            IPersonaRepository personaRepository,
+            IMapper mapper,
+            AppDbContext context)
         {
             _repository = repository;
             _personaRepository = personaRepository;
             _mapper = mapper;
+            _context = context;
+        }
+
+        // 🔹 Genera contraseña aleatoria de 10 caracteres
+        private string GenerarPassword()
+        {
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$%";
+            var random = new Random();
+            return new string(Enumerable.Repeat(chars, 10)
+                .Select(s => s[random.Next(s.Length)]).ToArray());
         }
 
         public async Task CrearEmpleadoAsync(EmpleadoDTO dto)
         {
             var persona = await _personaRepository.BuscarPorCriterioAsync(dto.NumeroEmpleado, dto.DNI);
             if (persona == null)
-                throw new System.Exception("La persona no fue encontrada con el número de empleado o DNI especificado.");
+                throw new Exception("La persona no fue encontrada con el número de empleado o DNI especificado.");
 
             var empleado = new Empleado
             {
@@ -40,13 +58,27 @@ namespace SIGECAP2.API.Services
             };
 
             await _repository.CrearEmpleadoAsync(empleado);
+
+            // 🔹 Generar contraseña y asociarla al empleado
+            string password = GenerarPassword();
+
+            var contrasena = new Contrasena
+            {
+                PasswordGenerada = password,
+                IdEmpleado = empleado.IdEmpleado
+            };
+
+            _context.Contrasenas.Add(contrasena);
+            await _context.SaveChangesAsync();
+
+            dto.ContrasenaGenerada = password;
         }
 
         public async Task<List<EmpleadoDTO>> ObtenerEmpleadosAsync()
         {
             var lista = await _repository.ObtenerTodosAsync();
 
-            var listaDto = lista.Select(e => new EmpleadoDTO
+            return lista.Select(e => new EmpleadoDTO
             {
                 NumeroEmpleado = e.NumeroEmpleado ?? "",
                 DNI = string.IsNullOrWhiteSpace(e.DNI) ? "Sin DNI" : e.DNI,
@@ -57,8 +89,20 @@ namespace SIGECAP2.API.Services
                 Estado = string.IsNullOrWhiteSpace(e.Estado) ? "Desconocido" : e.Estado,
                 Activo = e.Activo
             }).ToList();
+        }
 
-            return listaDto;
+        // ✅ Nuevo método para cambiar estado
+        public async Task<bool> CambiarEstadoAsync(string numeroEmpleado, bool activo)
+        {
+            var empleado = await _context.Empleado.FirstOrDefaultAsync(e => e.NumeroEmpleado == numeroEmpleado);
+            if (empleado == null)
+                return false;
+
+            empleado.Activo = activo;
+            empleado.Estado = activo ? "Activo" : "Inactivo";
+
+            await _context.SaveChangesAsync();
+            return true;
         }
     }
 }

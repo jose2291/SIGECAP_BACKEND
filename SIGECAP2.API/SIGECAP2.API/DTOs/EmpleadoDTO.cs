@@ -9,7 +9,9 @@
         public string Departamento { get; set; }
         public string Cargo { get; set; }
         public string Estado { get; set; }
-        public bool Activo { get; set; }              // ✅ Añadir este campo
+        public bool Activo { get; set; }
+
+        public string ContrasenaGenerada { get; set; }// ✅ Añadir este campo
     }
 }
 

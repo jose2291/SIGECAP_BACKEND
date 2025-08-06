@@ -8,8 +8,13 @@ namespace SIGECAP2.API.Repositories
     {
         Task CrearEmpleadoAsync(Empleado empleado);
 
-        // ✅ Método agregado para listar todos los empleados
+        // ✅ Método para listar todos los empleados
         Task<List<Empleado>> ObtenerTodosAsync();
+
+        // ✅ Nuevo método para cambiar estado
+        Task CambiarEstadoAsync(string numeroEmpleado, bool activo);
+
+        // (Opcional) Método genérico para actualizar empleado
+        Task ActualizarEmpleadoAsync(Empleado empleado);
     }
 }
-

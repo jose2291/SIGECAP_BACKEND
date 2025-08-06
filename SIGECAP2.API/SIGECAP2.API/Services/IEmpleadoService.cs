@@ -7,8 +7,7 @@ namespace SIGECAP2.API.Services
     public interface IEmpleadoService
     {
         Task CrearEmpleadoAsync(EmpleadoDTO dto);
-
-        // ✅ Agregar esta línea para solucionar el error
         Task<List<EmpleadoDTO>> ObtenerEmpleadosAsync();
+        Task<bool> CambiarEstadoAsync(string numeroEmpleado, bool activo);
     }
 }

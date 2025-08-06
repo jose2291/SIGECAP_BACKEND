@@ -1,6 +1,27 @@
 [
   {
     "ContainingType": "SIGECAP2.API.Controllers.EmpleadoController",
+    "Method": "CambiarEstado",
+    "RelativePath": "api/Empleado/cambiar-estado/{numeroEmpleado}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numeroEmpleado",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "activo",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SIGECAP2.API.Controllers.EmpleadoController",
     "Method": "ObtenerEmpleados",
     "RelativePath": "api/Empleado/listar",
     "HttpMethod": "GET",
@@ -21,6 +42,38 @@
         "Name": "criterio",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SIGECAP2.API.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SIGECAP2.API.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SIGECAP2.API.Controllers.LoginController",
+    "Method": "CambiarContrasena",
+    "RelativePath": "api/Login/cambiar-contrasena",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SIGECAP2.API.Controllers.CambiarContrasenaRequest",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

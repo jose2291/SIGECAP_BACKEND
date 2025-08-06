@@ -9,6 +9,8 @@ namespace SIGECAP2.API.Data
 
         public DbSet<Persona> Personas { get; set; }
         public DbSet<Empleado> Empleado { get; set; }
+        public DbSet<Contrasena> Contrasenas { get; set; }
+
 
     }
 }

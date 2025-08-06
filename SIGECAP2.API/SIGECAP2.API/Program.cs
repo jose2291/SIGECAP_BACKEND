@@ -25,20 +25,21 @@ builder.Services.AddScoped<IEmpleadoService, EmpleadoService>();
 
 // AutoMapper
 builder.Services.AddAutoMapper(typeof(PersonaProfile));
-builder.Services.AddAutoMapper(typeof(EmpleadoProfile)); // Asegúrate de tener este perfil
+builder.Services.AddAutoMapper(typeof(EmpleadoProfile));
 
-// CORS
+// CORS global
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAngularApp",
+    options.AddPolicy("AllowAll",
         policy => policy
-            .WithOrigins("http://localhost:4200")
+            .AllowAnyOrigin()   // Permite cualquier origen en desarrollo
             .AllowAnyHeader()
             .AllowAnyMethod());
 });
 
 var app = builder.Build();
 
+// Swagger solo en desarrollo
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -46,7 +47,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseCors("AllowAngularApp");
+
+// Activar CORS global
+app.UseCors("AllowAll");
 
 app.UseAuthorization();
 
