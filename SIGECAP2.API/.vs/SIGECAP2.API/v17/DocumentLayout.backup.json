@@ -167,8 +167,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T22:25:46.779Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -193,8 +192,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Program.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAWwBwAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T19:07:47.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T19:07:47.59Z"
             },
             {
               "$type": "Document",
@@ -206,8 +204,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Models\\AccesorioReserva.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T00:40:52.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T00:40:52.361Z"
             },
             {
               "$type": "Document",
@@ -219,8 +216,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Models\\FechaReserva.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T00:40:06.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T00:40:06.604Z"
             },
             {
               "$type": "Document",
@@ -232,8 +228,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Models\\Empleado.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T22:00:27.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T22:00:27.371Z"
             },
             {
               "$type": "Document",
@@ -245,8 +240,7 @@
               "RelativeToolTip": "SIGECAP2.API\\DTOs\\ReservaDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T00:42:10.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T00:42:10.803Z"
             },
             {
               "$type": "Document",
@@ -258,8 +252,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\ReservaService.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAIwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T00:45:09.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T00:45:09.111Z"
             },
             {
               "$type": "Document",
@@ -271,8 +264,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\FechaReservaRepository.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAA5wCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T00:54:55.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T00:54:55.3Z"
             },
             {
               "$type": "Document",
@@ -284,8 +276,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\IAcceosriosReservaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T00:55:31.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T00:55:31.562Z"
             },
             {
               "$type": "Document",
@@ -297,8 +288,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\AccesoriosReservaRepository.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowAkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T00:56:03.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T00:56:03.66Z"
             },
             {
               "$type": "Document",
@@ -310,8 +300,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\IFechaReservaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T00:54:23.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T00:54:23.032Z"
             },
             {
               "$type": "Document",
@@ -323,8 +312,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Mappings\\ReservaProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T00:48:32.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T00:48:32.178Z"
             },
             {
               "$type": "Document",
@@ -336,8 +324,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Controllers\\ReservaController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T00:45:53.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T00:45:53.814Z"
             },
             {
               "$type": "Document",
@@ -349,8 +336,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\IReservaService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T00:44:31.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T00:44:31.841Z"
             },
             {
               "$type": "Document",
@@ -362,8 +348,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\ReservaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T00:43:44.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T00:43:44.882Z"
             },
             {
               "$type": "Document",
@@ -375,8 +360,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\IReservaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T00:43:01.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T00:43:01.845Z"
             },
             {
               "$type": "Document",
@@ -388,8 +372,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAwwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T21:28:45.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T21:28:45.292Z"
             },
             {
               "$type": "Document",
@@ -413,8 +396,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Controllers\\EmpleadoController.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T22:04:52.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T22:04:52.676Z"
             },
             {
               "$type": "Document",
