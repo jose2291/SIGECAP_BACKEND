@@ -15,24 +15,33 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Repositorios
+// Repositorios existentes
 builder.Services.AddScoped<IPersonaRepository, PersonaRepository>();
 builder.Services.AddScoped<IEmpleadoRepository, EmpleadoRepository>();
 
-// Servicios
+// Servicios existentes
 builder.Services.AddScoped<IPersonaService, PersonaService>();
 builder.Services.AddScoped<IEmpleadoService, EmpleadoService>();
+
+// Nuevos repositorios para reservas
+builder.Services.AddScoped<IReservaRepository, ReservaRepository>();
+builder.Services.AddScoped<IFechaReservaRepository, FechaReservaRepository>();
+builder.Services.AddScoped<IAccesoriosReservaRepository, AccesoriosReservaRepository>();
+
+// Nuevos servicios para reservas
+builder.Services.AddScoped<IReservaService, ReservaService>();
 
 // AutoMapper
 builder.Services.AddAutoMapper(typeof(PersonaProfile));
 builder.Services.AddAutoMapper(typeof(EmpleadoProfile));
+builder.Services.AddAutoMapper(typeof(ReservaProfile));
 
 // CORS global
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",
         policy => policy
-            .AllowAnyOrigin()   // Permite cualquier origen en desarrollo
+            .AllowAnyOrigin()
             .AllowAnyHeader()
             .AllowAnyMethod());
 });
@@ -48,7 +57,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// Activar CORS global
 app.UseCors("AllowAll");
 
 app.UseAuthorization();

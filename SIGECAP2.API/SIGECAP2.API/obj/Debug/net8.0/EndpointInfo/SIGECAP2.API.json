@@ -191,6 +191,49 @@
         }
       }
     },
+    "/api/Reserva/crear": {
+      "post": {
+        "tags": [
+          "Reserva"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Reserva/listar": {
+      "get": {
+        "tags": [
+          "Reserva"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -332,6 +375,55 @@
           },
           "estado": {
             "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReservaDTO": {
+        "type": "object",
+        "properties": {
+          "reservadoPor": {
+            "type": "string",
+            "nullable": true
+          },
+          "recursiva": {
+            "type": "boolean"
+          },
+          "fechaUnica": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "fechas": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "nullable": true
+          },
+          "horaDesde": {
+            "type": "string",
+            "format": "date-span"
+          },
+          "horaHasta": {
+            "type": "string",
+            "format": "date-span"
+          },
+          "salon": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipo": {
+            "type": "string",
+            "nullable": true
+          },
+          "accesorios": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
             "nullable": true
           }
         },

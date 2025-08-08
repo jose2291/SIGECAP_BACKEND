@@ -121,6 +121,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SIGECAP2.API.Controllers.ReservaController",
+    "Method": "Crear",
+    "RelativePath": "api/Reserva/crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SIGECAP2.API.DTOs.ReservaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SIGECAP2.API.Controllers.ReservaController",
+    "Method": "Obtener",
+    "RelativePath": "api/Reserva/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SIGECAP2.API.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

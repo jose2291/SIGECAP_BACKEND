@@ -3,12 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\services\\reservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\services\\reservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\dtos\\reservadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\dtos\\reservadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\models\\accesorioreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\models\\accesorioreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\models\\fechareserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\models\\fechareserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\repositories\\accesoriosreservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\repositories\\accesoriosreservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\repositories\\iacceosriosreservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\repositories\\iacceosriosreservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\services\\iempleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\services\\iempleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\repositories\\fechareservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\repositories\\fechareservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\repositories\\ifechareservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\repositories\\ifechareservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\repositories\\reservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\repositories\\reservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\mappings\\reservaprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\mappings\\reservaprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\services\\ireservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\services\\ireservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\repositories\\ireservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\repositories\\ireservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\services\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,20 +99,8 @@
       "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\dtos\\empleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\models\\contrasena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\models\\contrasena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|solutionrelative:sigecap2.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3328412A-1643-45E9-B550-A3A76A69321A}|SIGECAP2.API\\SIGECAP2.API.csproj|c:\\users\\jarol lopez\\documents\\github\\sigecap_backend\\sigecap2.api\\sigecap2.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -98,11 +154,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "IEmpleadoService.cs",
               "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Services\\IEmpleadoService.cs",
               "RelativeDocumentMoniker": "SIGECAP2.API\\Services\\IEmpleadoService.cs",
@@ -116,98 +172,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "SIGECAP2.API\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "SIGECAP2.API\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T01:49:44.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EmpleadoController.cs",
-              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Controllers\\EmpleadoController.cs",
-              "RelativeDocumentMoniker": "SIGECAP2.API\\Controllers\\EmpleadoController.cs",
-              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Controllers\\EmpleadoController.cs",
-              "RelativeToolTip": "SIGECAP2.API\\Controllers\\EmpleadoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Models\\Reserva.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\Models\\Reserva.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Models\\Reserva.cs",
+              "RelativeToolTip": "SIGECAP2.API\\Models\\Reserva.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T22:04:52.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmpleadoService.cs",
-              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Services\\EmpleadoService.cs",
-              "RelativeDocumentMoniker": "SIGECAP2.API\\Services\\EmpleadoService.cs",
-              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Services\\EmpleadoService.cs",
-              "RelativeToolTip": "SIGECAP2.API\\Services\\EmpleadoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T22:04:15.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "SIGECAP2.API\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "SIGECAP2.API\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T21:28:45.292Z",
+              "WhenOpened": "2025-08-07T00:39:14.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "EmpleadoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\DTOs\\EmpleadoDTO.cs",
-              "RelativeDocumentMoniker": "SIGECAP2.API\\DTOs\\EmpleadoDTO.cs",
-              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\DTOs\\EmpleadoDTO.cs",
-              "RelativeToolTip": "SIGECAP2.API\\DTOs\\EmpleadoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Program.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Program.cs",
+              "RelativeToolTip": "SIGECAP2.API\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAWwBwAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T22:02:13.991Z",
+              "WhenOpened": "2025-07-27T19:07:47.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccesorioReserva.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Models\\AccesorioReserva.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\Models\\AccesorioReserva.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Models\\AccesorioReserva.cs",
+              "RelativeToolTip": "SIGECAP2.API\\Models\\AccesorioReserva.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T00:40:52.361Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "EmpleadoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\EmpleadoRepository.cs",
-              "RelativeDocumentMoniker": "SIGECAP2.API\\Repositories\\EmpleadoRepository.cs",
-              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\EmpleadoRepository.cs",
-              "RelativeToolTip": "SIGECAP2.API\\Repositories\\EmpleadoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Title": "FechaReserva.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Models\\FechaReserva.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\Models\\FechaReserva.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Models\\FechaReserva.cs",
+              "RelativeToolTip": "SIGECAP2.API\\Models\\FechaReserva.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T22:03:26.701Z",
+              "WhenOpened": "2025-08-07T00:40:06.604Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IEmpleadoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\IEmpleadoRepository.cs",
-              "RelativeDocumentMoniker": "SIGECAP2.API\\Repositories\\IEmpleadoRepository.cs",
-              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\IEmpleadoRepository.cs",
-              "RelativeToolTip": "SIGECAP2.API\\Repositories\\IEmpleadoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T22:26:53.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Empleado.cs",
               "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Models\\Empleado.cs",
               "RelativeDocumentMoniker": "SIGECAP2.API\\Models\\Empleado.cs",
@@ -220,20 +237,236 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Program.cs",
-              "RelativeDocumentMoniker": "SIGECAP2.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Program.cs",
-              "RelativeToolTip": "SIGECAP2.API\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ReservaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\DTOs\\ReservaDTO.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\DTOs\\ReservaDTO.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\DTOs\\ReservaDTO.cs",
+              "RelativeToolTip": "SIGECAP2.API\\DTOs\\ReservaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T19:07:47.59Z",
+              "WhenOpened": "2025-08-07T00:42:10.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
+              "Title": "ReservaService.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Services\\ReservaService.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\Services\\ReservaService.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Services\\ReservaService.cs",
+              "RelativeToolTip": "SIGECAP2.API\\Services\\ReservaService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T00:45:09.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FechaReservaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\FechaReservaRepository.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\Repositories\\FechaReservaRepository.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\FechaReservaRepository.cs",
+              "RelativeToolTip": "SIGECAP2.API\\Repositories\\FechaReservaRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T00:54:55.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAcceosriosReservaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\IAcceosriosReservaRepository.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\Repositories\\IAcceosriosReservaRepository.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\IAcceosriosReservaRepository.cs",
+              "RelativeToolTip": "SIGECAP2.API\\Repositories\\IAcceosriosReservaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T00:55:31.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccesoriosReservaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\AccesoriosReservaRepository.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\Repositories\\AccesoriosReservaRepository.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\AccesoriosReservaRepository.cs",
+              "RelativeToolTip": "SIGECAP2.API\\Repositories\\AccesoriosReservaRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T00:56:03.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IFechaReservaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\IFechaReservaRepository.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\Repositories\\IFechaReservaRepository.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\IFechaReservaRepository.cs",
+              "RelativeToolTip": "SIGECAP2.API\\Repositories\\IFechaReservaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T00:54:23.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReservaProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Mappings\\ReservaProfile.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\Mappings\\ReservaProfile.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Mappings\\ReservaProfile.cs",
+              "RelativeToolTip": "SIGECAP2.API\\Mappings\\ReservaProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T00:48:32.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReservaController.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Controllers\\ReservaController.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\Controllers\\ReservaController.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Controllers\\ReservaController.cs",
+              "RelativeToolTip": "SIGECAP2.API\\Controllers\\ReservaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T00:45:53.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IReservaService.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Services\\IReservaService.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\Services\\IReservaService.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Services\\IReservaService.cs",
+              "RelativeToolTip": "SIGECAP2.API\\Services\\IReservaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T00:44:31.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReservaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\ReservaRepository.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\Repositories\\ReservaRepository.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\ReservaRepository.cs",
+              "RelativeToolTip": "SIGECAP2.API\\Repositories\\ReservaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T00:43:44.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IReservaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\IReservaRepository.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\Repositories\\IReservaRepository.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\IReservaRepository.cs",
+              "RelativeToolTip": "SIGECAP2.API\\Repositories\\IReservaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T00:43:01.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "SIGECAP2.API\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T21:28:45.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "SIGECAP2.API\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T01:49:44.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmpleadoController.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Controllers\\EmpleadoController.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\Controllers\\EmpleadoController.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Controllers\\EmpleadoController.cs",
+              "RelativeToolTip": "SIGECAP2.API\\Controllers\\EmpleadoController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T22:04:52.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EmpleadoService.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Services\\EmpleadoService.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\Services\\EmpleadoService.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Services\\EmpleadoService.cs",
+              "RelativeToolTip": "SIGECAP2.API\\Services\\EmpleadoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T22:04:15.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EmpleadoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\DTOs\\EmpleadoDTO.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\DTOs\\EmpleadoDTO.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\DTOs\\EmpleadoDTO.cs",
+              "RelativeToolTip": "SIGECAP2.API\\DTOs\\EmpleadoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T22:02:13.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EmpleadoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\EmpleadoRepository.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\Repositories\\EmpleadoRepository.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\EmpleadoRepository.cs",
+              "RelativeToolTip": "SIGECAP2.API\\Repositories\\EmpleadoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T22:03:26.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IEmpleadoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\IEmpleadoRepository.cs",
+              "RelativeDocumentMoniker": "SIGECAP2.API\\Repositories\\IEmpleadoRepository.cs",
+              "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\IEmpleadoRepository.cs",
+              "RelativeToolTip": "SIGECAP2.API\\Repositories\\IEmpleadoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T22:26:53.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "Contrasena.cs",
               "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Models\\Contrasena.cs",
               "RelativeDocumentMoniker": "SIGECAP2.API\\Models\\Contrasena.cs",
@@ -241,12 +474,11 @@
               "RelativeToolTip": "SIGECAP2.API\\Models\\Contrasena.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwBQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T01:13:51.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T01:13:51.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 26,
               "Title": "PersonaProfile.cs",
               "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Mappings\\PersonaProfile.cs",
               "RelativeDocumentMoniker": "SIGECAP2.API\\Mappings\\PersonaProfile.cs",
@@ -258,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 27,
               "Title": "PersonaController.cs",
               "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Controllers\\PersonaController.cs",
               "RelativeDocumentMoniker": "SIGECAP2.API\\Controllers\\PersonaController.cs",
@@ -270,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 25,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\appsettings.json",
               "RelativeDocumentMoniker": "SIGECAP2.API\\appsettings.json",
@@ -282,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 28,
               "Title": "EmpleadoProfile.cs",
               "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Mappings\\EmpleadoProfile.cs",
               "RelativeDocumentMoniker": "SIGECAP2.API\\Mappings\\EmpleadoProfile.cs",
@@ -294,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 29,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Models\\Persona.cs",
               "RelativeDocumentMoniker": "SIGECAP2.API\\Models\\Persona.cs",
@@ -306,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 30,
               "Title": "IPersonaService.cs",
               "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Services\\IPersonaService.cs",
               "RelativeDocumentMoniker": "SIGECAP2.API\\Services\\IPersonaService.cs",
@@ -318,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 31,
               "Title": "PersonaService.cs",
               "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Services\\PersonaService.cs",
               "RelativeDocumentMoniker": "SIGECAP2.API\\Services\\PersonaService.cs",
@@ -330,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 32,
               "Title": "IPersonaRepository.cs",
               "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\IPersonaRepository.cs",
               "RelativeDocumentMoniker": "SIGECAP2.API\\Repositories\\IPersonaRepository.cs",
@@ -342,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 33,
               "Title": "PersonaRepository.cs",
               "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\Repositories\\PersonaRepository.cs",
               "RelativeDocumentMoniker": "SIGECAP2.API\\Repositories\\PersonaRepository.cs",
@@ -354,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 34,
               "Title": "PersonaDTO.cs",
               "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\DTOs\\PersonaDTO.cs",
               "RelativeDocumentMoniker": "SIGECAP2.API\\DTOs\\PersonaDTO.cs",
@@ -366,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 35,
               "Title": "SIGECAP2.API.csproj",
               "DocumentMoniker": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\SIGECAP2.API.csproj",
               "RelativeDocumentMoniker": "SIGECAP2.API\\SIGECAP2.API.csproj",

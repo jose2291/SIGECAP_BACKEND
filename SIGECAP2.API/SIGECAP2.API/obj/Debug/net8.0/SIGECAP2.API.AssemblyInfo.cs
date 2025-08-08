@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SIGECAP2.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5526e4c20b96303c3573d6150f84561c19f3e1d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35bccba044f4b18e38392822518f7fd93ec9ba54")]
 [assembly: System.Reflection.AssemblyProductAttribute("SIGECAP2.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SIGECAP2.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
