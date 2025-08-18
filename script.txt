@@ -1,0 +1,508 @@
+USE [master]
+GO
+/****** Object:  Database [SIGECAP2_DB]    Script Date: 17/8/2025 22:55:26 ******/
+CREATE DATABASE [SIGECAP2_DB]
+ CONTAINMENT = NONE
+ ON  PRIMARY 
+( NAME = N'SIGECAP2_DB', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA\SIGECAP2_DB.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
+ LOG ON 
+( NAME = N'SIGECAP2_DB_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA\SIGECAP2_DB_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+ WITH CATALOG_COLLATION = DATABASE_DEFAULT, LEDGER = OFF
+GO
+ALTER DATABASE [SIGECAP2_DB] SET COMPATIBILITY_LEVEL = 160
+GO
+IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
+begin
+EXEC [SIGECAP2_DB].[dbo].[sp_fulltext_database] @action = 'enable'
+end
+GO
+ALTER DATABASE [SIGECAP2_DB] SET ANSI_NULL_DEFAULT OFF 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET ANSI_NULLS OFF 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET ANSI_PADDING OFF 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET ANSI_WARNINGS OFF 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET ARITHABORT OFF 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET AUTO_CLOSE OFF 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET AUTO_SHRINK OFF 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET AUTO_UPDATE_STATISTICS ON 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET CURSOR_CLOSE_ON_COMMIT OFF 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET CURSOR_DEFAULT  GLOBAL 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET CONCAT_NULL_YIELDS_NULL OFF 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET NUMERIC_ROUNDABORT OFF 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET QUOTED_IDENTIFIER OFF 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET RECURSIVE_TRIGGERS OFF 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET  ENABLE_BROKER 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET AUTO_UPDATE_STATISTICS_ASYNC OFF 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET DATE_CORRELATION_OPTIMIZATION OFF 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET TRUSTWORTHY OFF 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET ALLOW_SNAPSHOT_ISOLATION OFF 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET PARAMETERIZATION SIMPLE 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET READ_COMMITTED_SNAPSHOT OFF 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET HONOR_BROKER_PRIORITY OFF 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET RECOVERY FULL 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET  MULTI_USER 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET PAGE_VERIFY CHECKSUM  
+GO
+ALTER DATABASE [SIGECAP2_DB] SET DB_CHAINING OFF 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET FILESTREAM( NON_TRANSACTED_ACCESS = OFF ) 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET TARGET_RECOVERY_TIME = 60 SECONDS 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET DELAYED_DURABILITY = DISABLED 
+GO
+ALTER DATABASE [SIGECAP2_DB] SET ACCELERATED_DATABASE_RECOVERY = OFF  
+GO
+EXEC sys.sp_db_vardecimal_storage_format N'SIGECAP2_DB', N'ON'
+GO
+ALTER DATABASE [SIGECAP2_DB] SET QUERY_STORE = ON
+GO
+ALTER DATABASE [SIGECAP2_DB] SET QUERY_STORE (OPERATION_MODE = READ_WRITE, CLEANUP_POLICY = (STALE_QUERY_THRESHOLD_DAYS = 30), DATA_FLUSH_INTERVAL_SECONDS = 900, INTERVAL_LENGTH_MINUTES = 60, MAX_STORAGE_SIZE_MB = 1000, QUERY_CAPTURE_MODE = AUTO, SIZE_BASED_CLEANUP_MODE = AUTO, MAX_PLANS_PER_QUERY = 200, WAIT_STATS_CAPTURE_MODE = ON)
+GO
+USE [SIGECAP2_DB]
+GO
+/****** Object:  Table [dbo].[AccesoriosReserva]    Script Date: 17/8/2025 22:55:27 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[AccesoriosReserva](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[ReservaId] [int] NOT NULL,
+	[Accesorio] [nvarchar](100) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Cargo]    Script Date: 17/8/2025 22:55:27 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Cargo](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Descripcion] [nvarchar](150) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Contrasenas]    Script Date: 17/8/2025 22:55:27 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Contrasenas](
+	[IdContrasena] [int] IDENTITY(1,1) NOT NULL,
+	[PasswordGenerada] [nvarchar](100) NOT NULL,
+	[IdEmpleado] [int] NOT NULL,
+	[FechaCreacion] [datetime] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[IdContrasena] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Departamento]    Script Date: 17/8/2025 22:55:27 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Departamento](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre] [nvarchar](150) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Direccion]    Script Date: 17/8/2025 22:55:27 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Direccion](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Descripcion] [nvarchar](200) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Empleado]    Script Date: 17/8/2025 22:55:27 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Empleado](
+	[IdEmpleado] [int] IDENTITY(1,1) NOT NULL,
+	[NumeroEmpleado] [nvarchar](50) NOT NULL,
+	[NombreCompleto] [nvarchar](200) NOT NULL,
+	[Correo] [nvarchar](150) NULL,
+	[Departamento] [nvarchar](100) NULL,
+	[Cargo] [nvarchar](100) NULL,
+	[Estado] [nvarchar](50) NULL,
+	[DNI] [nvarchar](20) NULL,
+	[Activo] [bit] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[IdEmpleado] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[FechasReserva]    Script Date: 17/8/2025 22:55:27 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[FechasReserva](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[ReservaId] [int] NOT NULL,
+	[Fecha] [date] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Institucion]    Script Date: 17/8/2025 22:55:27 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Institucion](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre] [nvarchar](200) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[NivelAcademico]    Script Date: 17/8/2025 22:55:27 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[NivelAcademico](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Descripcion] [varchar](150) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Personas]    Script Date: 17/8/2025 22:55:27 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Personas](
+	[IdPersona] [int] IDENTITY(1,1) NOT NULL,
+	[NumeroEmpleado] [nvarchar](50) NULL,
+	[DNI] [nvarchar](20) NOT NULL,
+	[Genero] [nvarchar](10) NULL,
+	[PrimerNombre] [nvarchar](100) NOT NULL,
+	[SegundoNombre] [nvarchar](100) NULL,
+	[PrimerApellido] [nvarchar](100) NOT NULL,
+	[SegundoApellido] [nvarchar](100) NULL,
+	[NivelAcademico] [nvarchar](100) NULL,
+	[Profesion] [nvarchar](100) NULL,
+	[Cargo] [nvarchar](100) NULL,
+	[DireccionPuesto] [nvarchar](255) NULL,
+	[Correo] [nvarchar](150) NULL,
+	[Estado] [nvarchar](50) NULL,
+	[FechaIngreso] [date] NULL,
+	[FechaNacimiento] [date] NULL,
+	[Telefono] [nvarchar](20) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[IdPersona] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Profesion]    Script Date: 17/8/2025 22:55:27 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Profesion](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Descripcion] [nvarchar](150) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Recurso]    Script Date: 17/8/2025 22:55:27 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Recurso](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre] [nvarchar](150) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Reservas]    Script Date: 17/8/2025 22:55:27 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Reservas](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[ReservadoPor] [nvarchar](100) NOT NULL,
+	[Recursiva] [bit] NOT NULL,
+	[FechaUnica] [date] NULL,
+	[HoraDesde] [time](7) NOT NULL,
+	[HoraHasta] [time](7) NOT NULL,
+	[Salon] [nvarchar](50) NOT NULL,
+	[Tipo] [nvarchar](50) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Rol]    Script Date: 17/8/2025 22:55:27 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Rol](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre] [nvarchar](150) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Salon]    Script Date: 17/8/2025 22:55:27 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Salon](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre] [nvarchar](150) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[TipoReunion]    Script Date: 17/8/2025 22:55:27 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[TipoReunion](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Descripcion] [nvarchar](150) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+SET IDENTITY_INSERT [dbo].[AccesoriosReserva] ON 
+GO
+INSERT [dbo].[AccesoriosReserva] ([Id], [ReservaId], [Accesorio]) VALUES (1, 1, N'Pizarra')
+GO
+INSERT [dbo].[AccesoriosReserva] ([Id], [ReservaId], [Accesorio]) VALUES (2, 1, N'Lápices')
+GO
+INSERT [dbo].[AccesoriosReserva] ([Id], [ReservaId], [Accesorio]) VALUES (3, 2, N'Micrófono')
+GO
+INSERT [dbo].[AccesoriosReserva] ([Id], [ReservaId], [Accesorio]) VALUES (4, 2, N'Papel')
+GO
+INSERT [dbo].[AccesoriosReserva] ([Id], [ReservaId], [Accesorio]) VALUES (5, 3, N'Micrófono')
+GO
+INSERT [dbo].[AccesoriosReserva] ([Id], [ReservaId], [Accesorio]) VALUES (6, 3, N'Papel')
+GO
+INSERT [dbo].[AccesoriosReserva] ([Id], [ReservaId], [Accesorio]) VALUES (7, 4, N'Papel')
+GO
+INSERT [dbo].[AccesoriosReserva] ([Id], [ReservaId], [Accesorio]) VALUES (8, 4, N'Marcadores')
+GO
+INSERT [dbo].[AccesoriosReserva] ([Id], [ReservaId], [Accesorio]) VALUES (9, 5, N'Micrófono')
+GO
+INSERT [dbo].[AccesoriosReserva] ([Id], [ReservaId], [Accesorio]) VALUES (10, 5, N'Marcadores')
+GO
+INSERT [dbo].[AccesoriosReserva] ([Id], [ReservaId], [Accesorio]) VALUES (11, 6, N'Data Show')
+GO
+INSERT [dbo].[AccesoriosReserva] ([Id], [ReservaId], [Accesorio]) VALUES (12, 6, N'Papel')
+GO
+INSERT [dbo].[AccesoriosReserva] ([Id], [ReservaId], [Accesorio]) VALUES (13, 6, N'Micrófono')
+GO
+INSERT [dbo].[AccesoriosReserva] ([Id], [ReservaId], [Accesorio]) VALUES (14, 6, N'Laptop')
+GO
+SET IDENTITY_INSERT [dbo].[AccesoriosReserva] OFF
+GO
+SET IDENTITY_INSERT [dbo].[Cargo] ON 
+GO
+INSERT [dbo].[Cargo] ([Id], [Descripcion]) VALUES (2, N'gerente')
+GO
+SET IDENTITY_INSERT [dbo].[Cargo] OFF
+GO
+SET IDENTITY_INSERT [dbo].[Contrasenas] ON 
+GO
+INSERT [dbo].[Contrasenas] ([IdContrasena], [PasswordGenerada], [IdEmpleado], [FechaCreacion]) VALUES (1, N'fdFc1ppx1i', 1, CAST(N'2025-08-05T19:28:16.203' AS DateTime))
+GO
+SET IDENTITY_INSERT [dbo].[Contrasenas] OFF
+GO
+SET IDENTITY_INSERT [dbo].[Departamento] ON 
+GO
+INSERT [dbo].[Departamento] ([Id], [Nombre]) VALUES (1, N'Recursos Humanos')
+GO
+INSERT [dbo].[Departamento] ([Id], [Nombre]) VALUES (2, N'Gerente')
+GO
+SET IDENTITY_INSERT [dbo].[Departamento] OFF
+GO
+SET IDENTITY_INSERT [dbo].[Direccion] ON 
+GO
+INSERT [dbo].[Direccion] ([Id], [Descripcion]) VALUES (1, N'Regional')
+GO
+SET IDENTITY_INSERT [dbo].[Direccion] OFF
+GO
+SET IDENTITY_INSERT [dbo].[Empleado] ON 
+GO
+INSERT [dbo].[Empleado] ([IdEmpleado], [NumeroEmpleado], [NombreCompleto], [Correo], [Departamento], [Cargo], [Estado], [DNI], [Activo]) VALUES (1, N'3182', N'Maria Isabel Lopez Hernandez', N'mlopez@tsc.gob.hn', N'Finanzas', N'Analista Contable', N'Activo', N'0801198811122', 1)
+GO
+SET IDENTITY_INSERT [dbo].[Empleado] OFF
+GO
+SET IDENTITY_INSERT [dbo].[FechasReserva] ON 
+GO
+INSERT [dbo].[FechasReserva] ([Id], [ReservaId], [Fecha]) VALUES (1, 4, CAST(N'2025-02-04' AS Date))
+GO
+INSERT [dbo].[FechasReserva] ([Id], [ReservaId], [Fecha]) VALUES (2, 4, CAST(N'2025-02-10' AS Date))
+GO
+INSERT [dbo].[FechasReserva] ([Id], [ReservaId], [Fecha]) VALUES (3, 6, CAST(N'2025-08-08' AS Date))
+GO
+INSERT [dbo].[FechasReserva] ([Id], [ReservaId], [Fecha]) VALUES (4, 6, CAST(N'2025-08-15' AS Date))
+GO
+INSERT [dbo].[FechasReserva] ([Id], [ReservaId], [Fecha]) VALUES (5, 6, CAST(N'2025-08-08' AS Date))
+GO
+SET IDENTITY_INSERT [dbo].[FechasReserva] OFF
+GO
+SET IDENTITY_INSERT [dbo].[Institucion] ON 
+GO
+INSERT [dbo].[Institucion] ([Id], [Nombre]) VALUES (2, N'Recursos Humanos')
+GO
+SET IDENTITY_INSERT [dbo].[Institucion] OFF
+GO
+SET IDENTITY_INSERT [dbo].[NivelAcademico] ON 
+GO
+INSERT [dbo].[NivelAcademico] ([Id], [Descripcion]) VALUES (1, N'Universidad completa')
+GO
+SET IDENTITY_INSERT [dbo].[NivelAcademico] OFF
+GO
+SET IDENTITY_INSERT [dbo].[Personas] ON 
+GO
+INSERT [dbo].[Personas] ([IdPersona], [NumeroEmpleado], [DNI], [Genero], [PrimerNombre], [SegundoNombre], [PrimerApellido], [SegundoApellido], [NivelAcademico], [Profesion], [Cargo], [DireccionPuesto], [Correo], [Estado], [FechaIngreso], [FechaNacimiento], [Telefono]) VALUES (1, N'3181', N'0801199012345', N'M', N'Jose', N'Alberto', N'Gutierrez', N'Ruiz', N'Universitario', N'Ingeniero en Sistemas', N'Asistente de Computo', N'Informatica', N'jgutierrez@tsc.gob.hn', N'Activo', CAST(N'2022-01-10' AS Date), CAST(N'1990-05-22' AS Date), N'98765432')
+GO
+INSERT [dbo].[Personas] ([IdPersona], [NumeroEmpleado], [DNI], [Genero], [PrimerNombre], [SegundoNombre], [PrimerApellido], [SegundoApellido], [NivelAcademico], [Profesion], [Cargo], [DireccionPuesto], [Correo], [Estado], [FechaIngreso], [FechaNacimiento], [Telefono]) VALUES (2, N'3182', N'0801198811122', N'F', N'Maria', N'Isabel', N'Lopez', N'Hernandez', N'Universitario', N'Contadora', N'Analista Contable', N'Finanzas', N'mlopez@tsc.gob.hn', N'Activo', CAST(N'2021-09-15' AS Date), CAST(N'1988-03-14' AS Date), N'99887766')
+GO
+INSERT [dbo].[Personas] ([IdPersona], [NumeroEmpleado], [DNI], [Genero], [PrimerNombre], [SegundoNombre], [PrimerApellido], [SegundoApellido], [NivelAcademico], [Profesion], [Cargo], [DireccionPuesto], [Correo], [Estado], [FechaIngreso], [FechaNacimiento], [Telefono]) VALUES (3, N'3183', N'0801200011111', N'M', N'Carlos', N'Eduardo', N'Torres', N'Martinez', N'Secundaria', N'Tecnico en Computacion', N'Soporte Tecnico', N'Informatica', N'ctorres@tsc.gob.hn', N'Activo', CAST(N'2020-05-20' AS Date), CAST(N'2000-01-05' AS Date), N'91234567')
+GO
+INSERT [dbo].[Personas] ([IdPersona], [NumeroEmpleado], [DNI], [Genero], [PrimerNombre], [SegundoNombre], [PrimerApellido], [SegundoApellido], [NivelAcademico], [Profesion], [Cargo], [DireccionPuesto], [Correo], [Estado], [FechaIngreso], [FechaNacimiento], [Telefono]) VALUES (4, N'3184', N'0801199509876', N'F', N'Ana', N'Patricia', N'Ramirez', N'Lopez', N'Maestria', N'Administracion de Empresas', N'Jefe de Recursos Humanos', N'RRHH', N'aramirez@tsc.gob.hn', N'Activo', CAST(N'2019-02-01' AS Date), CAST(N'1995-09-09' AS Date), N'93456789')
+GO
+INSERT [dbo].[Personas] ([IdPersona], [NumeroEmpleado], [DNI], [Genero], [PrimerNombre], [SegundoNombre], [PrimerApellido], [SegundoApellido], [NivelAcademico], [Profesion], [Cargo], [DireccionPuesto], [Correo], [Estado], [FechaIngreso], [FechaNacimiento], [Telefono]) VALUES (5, N'3185', N'0801200512345', N'M', N'Luis', N'Fernando', N'Castro', N'Mendoza', N'Universitario', N'Auditor', N'Auditor Interno', N'Auditoria', N'lcastro@tsc.gob.hn', N'Activo', CAST(N'2023-03-12' AS Date), CAST(N'2001-07-18' AS Date), N'94561234')
+GO
+SET IDENTITY_INSERT [dbo].[Personas] OFF
+GO
+SET IDENTITY_INSERT [dbo].[Profesion] ON 
+GO
+INSERT [dbo].[Profesion] ([Id], [Descripcion]) VALUES (1, N'Ing. Civil')
+GO
+SET IDENTITY_INSERT [dbo].[Profesion] OFF
+GO
+SET IDENTITY_INSERT [dbo].[Reservas] ON 
+GO
+INSERT [dbo].[Reservas] ([Id], [ReservadoPor], [Recursiva], [FechaUnica], [HoraDesde], [HoraHasta], [Salon], [Tipo]) VALUES (1, N'Joel Gonzales', 0, NULL, CAST(N'08:00:00' AS Time), CAST(N'13:00:00' AS Time), N'Salón 2', N'formacion')
+GO
+INSERT [dbo].[Reservas] ([Id], [ReservadoPor], [Recursiva], [FechaUnica], [HoraDesde], [HoraHasta], [Salon], [Tipo]) VALUES (2, N'Joel Gonzales', 1, NULL, CAST(N'07:30:00' AS Time), CAST(N'17:00:00' AS Time), N'Salón 4', N'reunion')
+GO
+INSERT [dbo].[Reservas] ([Id], [ReservadoPor], [Recursiva], [FechaUnica], [HoraDesde], [HoraHasta], [Salon], [Tipo]) VALUES (3, N'jaime serrano', 0, CAST(N'2025-05-05' AS Date), CAST(N'08:00:00' AS Time), CAST(N'12:00:00' AS Time), N'Salón 4', N'formacion')
+GO
+INSERT [dbo].[Reservas] ([Id], [ReservadoPor], [Recursiva], [FechaUnica], [HoraDesde], [HoraHasta], [Salon], [Tipo]) VALUES (4, N'Thomas Lopez', 1, NULL, CAST(N'09:00:00' AS Time), CAST(N'17:00:00' AS Time), N'Salón 3', N'reunion')
+GO
+INSERT [dbo].[Reservas] ([Id], [ReservadoPor], [Recursiva], [FechaUnica], [HoraDesde], [HoraHasta], [Salon], [Tipo]) VALUES (5, N'Jose Gutierrez', 0, CAST(N'2025-08-05' AS Date), CAST(N'08:05:00' AS Time), CAST(N'13:00:00' AS Time), N'Salón 5', N'reunion')
+GO
+INSERT [dbo].[Reservas] ([Id], [ReservadoPor], [Recursiva], [FechaUnica], [HoraDesde], [HoraHasta], [Salon], [Tipo]) VALUES (6, N'Jarol Lopez', 1, NULL, CAST(N'08:00:00' AS Time), CAST(N'14:00:00' AS Time), N'Salón 3', N'formacion')
+GO
+SET IDENTITY_INSERT [dbo].[Reservas] OFF
+GO
+SET IDENTITY_INSERT [dbo].[Salon] ON 
+GO
+INSERT [dbo].[Salon] ([Id], [Nombre]) VALUES (1, N'Sala 1')
+GO
+SET IDENTITY_INSERT [dbo].[Salon] OFF
+GO
+SET IDENTITY_INSERT [dbo].[TipoReunion] ON 
+GO
+INSERT [dbo].[TipoReunion] ([Id], [Descripcion]) VALUES (1, N'Reunión General')
+GO
+SET IDENTITY_INSERT [dbo].[TipoReunion] OFF
+GO
+/****** Object:  Index [UQ__Contrase__CE6D8B9F695F79E7]    Script Date: 17/8/2025 22:55:27 ******/
+ALTER TABLE [dbo].[Contrasenas] ADD UNIQUE NONCLUSTERED 
+(
+	[IdEmpleado] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Contrasenas] ADD  DEFAULT (getdate()) FOR [FechaCreacion]
+GO
+ALTER TABLE [dbo].[Empleado] ADD  DEFAULT ((1)) FOR [Activo]
+GO
+ALTER TABLE [dbo].[AccesoriosReserva]  WITH CHECK ADD FOREIGN KEY([ReservaId])
+REFERENCES [dbo].[Reservas] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[Contrasenas]  WITH CHECK ADD  CONSTRAINT [FK_Contrasena_Empleado] FOREIGN KEY([IdEmpleado])
+REFERENCES [dbo].[Empleado] ([IdEmpleado])
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[Contrasenas] CHECK CONSTRAINT [FK_Contrasena_Empleado]
+GO
+ALTER TABLE [dbo].[FechasReserva]  WITH CHECK ADD FOREIGN KEY([ReservaId])
+REFERENCES [dbo].[Reservas] ([Id])
+ON DELETE CASCADE
+GO
+USE [master]
+GO
+ALTER DATABASE [SIGECAP2_DB] SET  READ_WRITE 
+GO
