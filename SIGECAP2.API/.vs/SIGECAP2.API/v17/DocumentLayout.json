@@ -503,8 +503,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Models\\TipoReunion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:21:45.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:21:45.428Z"
             },
             {
               "$type": "Document",
@@ -516,8 +515,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\TipoReunionService.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAcwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:24:29.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:24:29.234Z"
             },
             {
               "$type": "Document",
@@ -529,8 +527,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\ITipoReunionService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:24:04.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:24:04.597Z"
             },
             {
               "$type": "Document",
@@ -542,8 +539,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Controllers\\CargoController.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T23:55:45.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T23:55:45.274Z"
             },
             {
               "$type": "Document",
@@ -553,7 +549,7 @@
               "RelativeDocumentMoniker": "SIGECAP2.API\\DTOs\\RecursoDto.cs",
               "ToolTip": "C:\\Users\\Jarol Lopez\\Documents\\GitHub\\SIGECAP_BACKEND\\SIGECAP2.API\\SIGECAP2.API\\DTOs\\RecursoDto.cs",
               "RelativeToolTip": "SIGECAP2.API\\DTOs\\RecursoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T00:27:29.176Z",
               "EditorCaption": ""
@@ -568,8 +564,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Controllers\\RecursoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:30:20.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:30:20.543Z"
             },
             {
               "$type": "Document",
@@ -581,8 +576,7 @@
               "RelativeToolTip": "SIGECAP2.API\\DTOs\\TipoReunionDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:22:00.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:22:00.946Z"
             },
             {
               "$type": "Document",
@@ -594,8 +588,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Models\\Cargo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T23:41:47.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T23:41:47.089Z"
             },
             {
               "$type": "Document",
@@ -607,8 +600,7 @@
               "RelativeToolTip": "SIGECAP2.API\\DTOs\\CargoDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T23:43:59.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T23:43:59.85Z"
             },
             {
               "$type": "Document",
@@ -620,8 +612,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\TipoReunionRepository.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:23:41.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:23:41.143Z"
             },
             {
               "$type": "Document",
@@ -633,8 +624,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\DireccionRepository.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA1wBcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:01:24.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:01:24.859Z"
             },
             {
               "$type": "Document",
@@ -646,8 +636,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Program.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAowG4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T19:07:47.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T19:07:47.59Z"
             },
             {
               "$type": "Document",
@@ -659,8 +648,7 @@
               "RelativeToolTip": "SIGECAP2.API\\DTOs\\CreateTipoReunionDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:23:00.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:23:00.095Z"
             },
             {
               "$type": "Document",
@@ -672,8 +660,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Data\\AppDbContext.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAUwDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T21:28:45.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T21:28:45.292Z"
             },
             {
               "$type": "Document",
@@ -685,8 +672,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Controllers\\RolController.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAqwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:34:29.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:34:29.541Z"
             },
             {
               "$type": "Document",
@@ -698,8 +684,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Mappings\\RolProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:33:56.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:33:56.513Z"
             },
             {
               "$type": "Document",
@@ -711,8 +696,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\RolService.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:33:29.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:33:29.376Z"
             },
             {
               "$type": "Document",
@@ -724,8 +708,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\IRolService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:33:02.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:33:02.104Z"
             },
             {
               "$type": "Document",
@@ -737,8 +720,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\RolRepository.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAUwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:32:24.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:32:24.972Z"
             },
             {
               "$type": "Document",
@@ -750,8 +732,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\IRolRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:32:05.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:32:05.646Z"
             },
             {
               "$type": "Document",
@@ -763,8 +744,7 @@
               "RelativeToolTip": "SIGECAP2.API\\DTOs\\RolDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:31:40.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:31:40.445Z"
             },
             {
               "$type": "Document",
@@ -776,8 +756,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Models\\Rol.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:31:21.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:31:21.052Z"
             },
             {
               "$type": "Document",
@@ -789,8 +768,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Mappings\\RecursoProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:29:57.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:29:57.798Z"
             },
             {
               "$type": "Document",
@@ -802,8 +780,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\RecursoService.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAqwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:29:32.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:29:32.676Z"
             },
             {
               "$type": "Document",
@@ -815,8 +792,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\IRecursoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:28:59.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:28:59.687Z"
             },
             {
               "$type": "Document",
@@ -828,8 +804,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\RecursoRepository.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAUwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:28:33.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:28:33.944Z"
             },
             {
               "$type": "Document",
@@ -841,8 +816,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\IRecursoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:27:58.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:27:58.732Z"
             },
             {
               "$type": "Document",
@@ -854,8 +828,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Models\\Recurso.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:27:00.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:27:00.093Z"
             },
             {
               "$type": "Document",
@@ -867,8 +840,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Controllers\\TipoReunionController.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAUwEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:25:53.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:25:53.758Z"
             },
             {
               "$type": "Document",
@@ -880,8 +852,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Mappings\\TipoReunionProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:25:01.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:25:01.553Z"
             },
             {
               "$type": "Document",
@@ -893,8 +864,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\ITipoReunionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:23:24.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:23:24.126Z"
             },
             {
               "$type": "Document",
@@ -906,8 +876,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Controllers\\InstitucionController.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAUwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:19:12.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:19:12.059Z"
             },
             {
               "$type": "Document",
@@ -919,8 +888,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\InstitucionService.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAswDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:16:23.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:16:23.613Z"
             },
             {
               "$type": "Document",
@@ -932,8 +900,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\IInstitucionService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:16:02.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:16:02.029Z"
             },
             {
               "$type": "Document",
@@ -945,8 +912,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\InstitucionRepository.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAqwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:15:40.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:15:40.398Z"
             },
             {
               "$type": "Document",
@@ -958,8 +924,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\IInstitucionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:15:25.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:15:25.605Z"
             },
             {
               "$type": "Document",
@@ -971,8 +936,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Mappings\\InstitucionProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:15:06.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:15:06.138Z"
             },
             {
               "$type": "Document",
@@ -984,8 +948,7 @@
               "RelativeToolTip": "SIGECAP2.API\\DTOs\\InstitucionDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:14:45.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:14:45.044Z"
             },
             {
               "$type": "Document",
@@ -997,8 +960,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Models\\Institucion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:14:24.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:14:24.751Z"
             },
             {
               "$type": "Document",
@@ -1010,8 +972,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Controllers\\SalonController.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:13:32.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:13:32.614Z"
             },
             {
               "$type": "Document",
@@ -1023,8 +984,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Mappings\\SalonProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:13:12.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:13:12.642Z"
             },
             {
               "$type": "Document",
@@ -1036,8 +996,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\SalonService.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAywDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:12:55.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:12:55.114Z"
             },
             {
               "$type": "Document",
@@ -1049,8 +1008,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\ISalonService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:12:31.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:12:31.113Z"
             },
             {
               "$type": "Document",
@@ -1062,8 +1020,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\SalonRepository.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAiwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:12:06.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:12:06.895Z"
             },
             {
               "$type": "Document",
@@ -1075,8 +1032,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\ISalonRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:11:42.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:11:42.955Z"
             },
             {
               "$type": "Document",
@@ -1088,8 +1044,7 @@
               "RelativeToolTip": "SIGECAP2.API\\DTOs\\SalonDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:11:16.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:11:16.275Z"
             },
             {
               "$type": "Document",
@@ -1101,8 +1056,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Models\\Salon.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:10:50.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:10:50.861Z"
             },
             {
               "$type": "Document",
@@ -1114,8 +1068,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Controllers\\DepartamentoController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAUwDIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:09:11.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:09:11.83Z"
             },
             {
               "$type": "Document",
@@ -1127,8 +1080,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\DepartamentoService.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAA1wCEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:08:44.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:08:44.993Z"
             },
             {
               "$type": "Document",
@@ -1140,8 +1092,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\IDepartamentoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:08:12.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:08:12.966Z"
             },
             {
               "$type": "Document",
@@ -1153,8 +1104,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\DepartamentoRepository.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAqwCsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:07:46.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:07:46.864Z"
             },
             {
               "$type": "Document",
@@ -1166,8 +1116,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\IDepartamentoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:07:23.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:07:23.339Z"
             },
             {
               "$type": "Document",
@@ -1179,8 +1128,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Mappings\\DepartamentoProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:06:56.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:06:56.559Z"
             },
             {
               "$type": "Document",
@@ -1192,8 +1140,7 @@
               "RelativeToolTip": "SIGECAP2.API\\DTOs\\DepartamentoDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:06:21.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:06:21.744Z"
             },
             {
               "$type": "Document",
@@ -1205,8 +1152,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Models\\Departamento.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:05:46.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:05:46.685Z"
             },
             {
               "$type": "Document",
@@ -1218,8 +1164,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Mappings\\DireccionProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:02:56.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:02:56.849Z"
             },
             {
               "$type": "Document",
@@ -1231,8 +1176,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Controllers\\DireccionController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAUwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:02:35.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:02:35.677Z"
             },
             {
               "$type": "Document",
@@ -1244,8 +1188,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\DireccionService.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAqwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:02:09.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:02:09.992Z"
             },
             {
               "$type": "Document",
@@ -1257,8 +1200,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\IDireccionService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:01:47.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:01:47.662Z"
             },
             {
               "$type": "Document",
@@ -1270,8 +1212,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\IDireccionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:00:58.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:00:58.66Z"
             },
             {
               "$type": "Document",
@@ -1283,8 +1224,7 @@
               "RelativeToolTip": "SIGECAP2.API\\DTOs\\DireccionDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:00:30.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:00:30.994Z"
             },
             {
               "$type": "Document",
@@ -1296,8 +1236,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Models\\Direccion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:00:04.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:00:04.862Z"
             },
             {
               "$type": "Document",
@@ -1309,8 +1248,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\CargoService.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAqwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T23:55:17.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T23:55:17.082Z"
             },
             {
               "$type": "Document",
@@ -1322,8 +1260,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\ICargoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T23:54:54.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T23:54:54.485Z"
             },
             {
               "$type": "Document",
@@ -1335,8 +1272,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\CargoRepository.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAqwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T23:54:27.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T23:54:27.51Z"
             },
             {
               "$type": "Document",
@@ -1348,8 +1284,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\ICargoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T23:54:04.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T23:54:04.51Z"
             },
             {
               "$type": "Document",
@@ -1361,8 +1296,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Mappings\\CargoProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T23:53:04.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T23:53:04.854Z"
             },
             {
               "$type": "Document",
@@ -1374,8 +1308,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\ProfesionService.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAywDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T23:23:49.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T23:23:49.295Z"
             },
             {
               "$type": "Document",
@@ -1387,8 +1320,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\IProfesionService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T23:23:22.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T23:23:22.202Z"
             },
             {
               "$type": "Document",
@@ -1400,8 +1332,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\ProfesionRepository.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAUwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T23:22:53.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T23:22:53.349Z"
             },
             {
               "$type": "Document",
@@ -1413,8 +1344,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Models\\Profesion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T23:21:27.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T23:21:27.406Z"
             },
             {
               "$type": "Document",
@@ -1426,8 +1356,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Mappings\\ProfesionProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T23:24:22.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T23:24:22.647Z"
             },
             {
               "$type": "Document",
@@ -1439,8 +1368,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Controllers\\ProfesionController.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAUwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T23:26:23.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T23:26:23.538Z"
             },
             {
               "$type": "Document",
@@ -1452,8 +1380,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\IProfesionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T23:22:22.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T23:22:22.143Z"
             },
             {
               "$type": "Document",
@@ -1465,8 +1392,7 @@
               "RelativeToolTip": "SIGECAP2.API\\DTOs\\ProfesionDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T23:21:56.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T23:21:56.786Z"
             },
             {
               "$type": "Document",
@@ -1478,8 +1404,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Mappings\\NivelAcademicoProfile.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T22:43:56.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T22:43:56.313Z"
             },
             {
               "$type": "Document",
@@ -1491,8 +1416,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\NivelAcademicoService.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAA0wDAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T22:43:02.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T22:43:02.266Z"
             },
             {
               "$type": "Document",
@@ -1504,8 +1428,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Services\\INivelAcademicoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T22:42:27.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T22:42:27.738Z"
             },
             {
               "$type": "Document",
@@ -1517,8 +1440,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Controllers\\NivelAcademicoController.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAwwDYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T22:45:32.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T22:45:32.691Z"
             },
             {
               "$type": "Document",
@@ -1530,8 +1452,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\NivelAcademicoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T22:41:10.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T22:41:10.307Z"
             },
             {
               "$type": "Document",
@@ -1543,8 +1464,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Repositories\\INivelAcademicoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T22:40:32.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T22:40:32.084Z"
             },
             {
               "$type": "Document",
@@ -1556,8 +1476,7 @@
               "RelativeToolTip": "SIGECAP2.API\\DTOs\\NivelAcademicoDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T20:50:37.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-10T20:50:37.88Z"
             },
             {
               "$type": "Document",
@@ -1605,8 +1524,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Models\\AccesorioReserva.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T00:40:52.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T00:40:52.361Z"
             },
             {
               "$type": "Document",
@@ -1618,8 +1536,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Models\\Reserva.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T00:39:14.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T00:39:14.771Z"
             },
             {
               "$type": "Document",
@@ -1631,8 +1548,7 @@
               "RelativeToolTip": "SIGECAP2.API\\Models\\NivelAcademico.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T20:48:54.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-10T20:48:54.182Z"
             },
             {
               "$type": "Document",
